@@ -6,7 +6,7 @@ google-generativeai==0.1.0
 # Compatible versions of protobuf
 protobuf==4.21.9
 
-# Additional essential packages
+# Additional essential packages with updated TensorFlow version
 google-api-core==2.19.2
 google-cloud-translate==3.16.0
 grpc-google-iam-v1==0.13.1
@@ -14,9 +14,11 @@ grpcio==1.66.1
 grpcio-status==1.66.1
 googleapis-common-protos==1.65.0
 
+# Update TensorFlow to a compatible version
+tensorflow==2.16.2
+
 # Other packages (adjusted as necessary)
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
-tensorflow==2.15.0
 spacy==3.7.5
